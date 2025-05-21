@@ -1,0 +1,132 @@
+/* profile */
+#profile {
+  display: grid;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#profile table {
+  width: 100%;
+}
+
+#profile table,
+#profile th,
+#profile td {
+  border: 1px black solid;
+  text-align: left;
+}
+
+#profile th,
+#profile td {
+  padding: 0.5rem;
+}
+/*  */
+
+/* skill form */
+#skill-form {
+  display: grid;
+  justify-content: center;
+}
+
+#skill-form form {
+  display: grid;
+  gap: 1rem;
+  width: 30rem;
+}
+
+#skill-form label,
+p.input-label {
+  margin-bottom: 0.5rem;
+}
+
+#skill-form input[type="text"],
+#skill-form textarea,
+#skill-form select {
+  width: 100%;
+}
+
+#skill-form .programming-language {
+  display: grid;
+  gap: 0.5rem;
+}
+
+#skill-form .programming-language-input {
+  display: grid;
+  gap: 0.5rem;
+}
+
+#skill-form .checkboxes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 1px gray solid;
+  border-radius: 5px;
+  background: white;
+}
+
+#skill-form .checkboxes label,
+#skill-form .used-os label {
+  display: inline;
+  width: fit-content;
+  font-size: small;
+  text-transform: capitalize;
+}
+
+#skill-form .os-radio {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 1px gray solid;
+  border-radius: 5px;
+  background: white;
+}
+
+#skill-form .buttons-container {
+  display: flex;
+  gap: 0.5rem;
+}
+/*  */
+
+/* after submit */
+#after-submit {
+  display: grid;
+  gap: 1rem;
+}
+
+#after-submit table,
+#after-submit th,
+#after-submit td {
+  border: 1px black solid;
+}
+
+#after-submit th,
+#after-submit td {
+  padding: 0.5rem;
+}
+
+#after-submit table {
+  text-align: left;
+}
+
+#after-submit tfoot {
+  text-align: center;
+  color: green;
+}
+
+#after-submit p.description {
+  text-align: justify;
+  color: rgb(57, 56, 56);
+}
+
+#after-submit p span {
+  font-weight: bold;
+}
+
+#after-submit .message {
+  font-weight: bold;
+  color: green;
+  text-align: center;
+}
+/*  */

@@ -1,0 +1,103 @@
+/* inisialiasi */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*  */
+
+/* typography */
+label,
+a {
+  display: block;
+  text-decoration: none;
+}
+
+h1.title {
+  font-size: x-large;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+h2,
+h3 {
+  text-transform: capitalize;
+}
+
+.error {
+  font-size: x-small;
+  color: red;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+/*  */
+
+/* components */
+input,
+textarea,
+select {
+  border: 1px gray solid;
+  border-radius: 5px;
+  padding: 0.5rem;
+  resize: none;
+}
+
+textarea {
+  height: 6rem;
+}
+
+.btn {
+  display: block;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: small;
+  transition: all 0.3s;
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+}
+
+.btn.btn-default {
+  background: black;
+  color: white;
+}
+
+.btn.btn-default:hover {
+  background: rgb(62, 62, 62);
+}
+
+.btn.btn-outline {
+  background: transparent;
+  color: black;
+  border: 1px black solid;
+}
+
+.btn.btn-outline:hover {
+  background: black;
+  color: white;
+}
+
+.btn.btn-danger {
+  background: red;
+  color: white;
+}
+
+.btn.btn-danger:hover {
+  background: rgb(172, 0, 0);
+}
+/*  */
+
+/* layout */
+main {
+  display: grid;
+  gap: 2rem;
+  margin: 1rem 20rem;
+  /* background: cyan; */
+}
+/*  */

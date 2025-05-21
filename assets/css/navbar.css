@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10rem;
+  border-bottom: 1px black solid;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a.branding {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+}

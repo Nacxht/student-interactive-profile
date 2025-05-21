@@ -1,0 +1,31 @@
+/* timeline */
+#timeline {
+  display: grid;
+  gap: 2rem;
+}
+
+#timeline .timelines {
+  display: grid;
+  gap: 1rem;
+}
+
+#timeline .sub-timeline {
+  display: grid;
+  gap: 1rem;
+  border-left: 1px black solid;
+  padding-left: 1rem;
+}
+
+#timeline .sub p {
+  border-left: 1px black solid;
+  padding-left: 1rem;
+}
+/*  */
+
+/* buttons */
+#buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+/*  */
