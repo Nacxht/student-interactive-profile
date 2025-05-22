@@ -29,7 +29,15 @@ $timelines = [
 </head>
 
 <body>
-  <?php include "../components/navbar.php" ?>
+  <nav>
+    <a href="../index.php" class="branding">profil interaktif mahasiswa</a>
+
+    <ul>
+      <li><a href="../index.php">Profile</a></li>
+      <li><a href="timeline.php">Timeline</a></li>
+      <li><a href="blog.php">Blog</a></li>
+    </ul>
+  </nav>
 
   <main>
     <section id="timeline">

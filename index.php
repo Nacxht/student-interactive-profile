@@ -30,7 +30,15 @@ function isCheckboxChecked($arr, $software_name)
 </head>
 
 <body>
-  <?php include 'components/navbar.php'; ?>
+  <nav>
+    <a href="index.php" class="branding">profil interaktif mahasiswa</a>
+
+    <ul>
+      <li><a href="index.php">Profile</a></li>
+      <li><a href="pages/timeline.php">Timeline</a></li>
+      <li><a href="pages/blog.php">Blog</a></li>
+    </ul>
+  </nav>
 
   <main>
     <section id="profile">
