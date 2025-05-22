@@ -83,6 +83,10 @@ p.input-label {
   background: white;
 }
 
+#skill-form .os-radio .radio-container {
+  justify-self: center;
+}
+
 #skill-form .buttons-container {
   display: flex;
   gap: 0.5rem;

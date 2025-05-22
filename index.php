@@ -151,17 +151,17 @@ function isCheckboxChecked($arr, $software_name)
           <p class="input-label">Sistem operasi yang digunakan</p>
 
           <div class="os-radio">
-            <div class="windows">
+            <div class="radio-container">
               <label for="windows">Windows</label>
               <input type="radio" name="used-os" id="windows" value="windows" <?= $used_os == "windows" ? "checked" : "" ?>>
             </div>
 
-            <div class="windows">
+            <div class="radio-container">
               <label for="linux">Linux</label>
               <input type="radio" name="used-os" id="linux" value="linux" <?= $used_os == "linux" ? "checked" : "" ?>>
             </div>
 
-            <div class="windows">
+            <div class="radio-container">
               <label for="macos">Mac</label>
               <input type="radio" name="used-os" id="macos" value="macos" <?= $used_os == "macos" ? "checked" : "" ?>>
             </div>
